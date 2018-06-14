@@ -4,8 +4,10 @@
         Durgé Seerden (@dsdeur)
         http://dsdeur.me
         https://github.com/dsdeur
+    Personnal modifications, Julien Barrier
+        @julienbarrier
 
-
+    Fonts: IBM Plex: https://github.com/IBM/plex
     Color scheme code based on https://github.com/merqurio/jupyter_themes/blob/master/themes/base16-solarized-dark.css
     Gabi de Maeztu (https://github.com/merqurio/jupyter_themes/) - Plugin which contained the theme
     Ethan Schoonover (http://ethanschoonover.com/solarized) - Solarized theme
@@ -160,7 +162,7 @@ div.cell {
 }
 
 .text_cell.rendered .rendered_html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight:200;
     color: #e9e9e9;
 }
@@ -196,7 +198,7 @@ div.cell.edit_mode {
 
 
 .CodeMirror pre {
-    font-family: 'Menlo', 'Ubuntu Mono', monospace;
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
 }
 
@@ -217,8 +219,10 @@ div.input_prompt {
 
 .rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
     border: 1px solid #5e5d68;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight:200;
+    background-color: #2e2e33;
+    color: #268bd2;
 }
 
 .rendered_html th {
@@ -346,3 +350,7 @@ div.output_stderr pre {color: #eee8d5;}
 .modal-content {
     color: #1f1f1f;
 }
+
+.container {
+    width: 95%;
+} 
